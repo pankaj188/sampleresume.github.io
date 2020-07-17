@@ -1,0 +1,296 @@
+body{
+    background-color:black;
+    
+
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    color: white;
+
+}
+.left ul{
+    color: white;
+    position: absolute;
+    top: 210px;
+    font-size: x-large;
+}
+.left ul li{
+    
+    top: 20px;
+    font-size: 18px;
+    padding: 4px;
+
+
+}
+.mid{
+    border: 2px blue;
+    display: block;
+    width: 36%;
+    margin: 10px auto;
+    text-align: center;
+    
+
+
+
+}
+.right{
+    position: absolute;
+    right: 32px;
+    top: 30px;
+    display: inline-block;
+    border: 2px green;
+
+}
+.right ul{
+    color: white;
+    position: absolute;
+    top: 510px;
+    font-size: large;
+    margin-right: 50px;
+}
+.right ul li{
+    
+    top: 20px;
+    font-size: 18px;
+    padding: 4px;
+
+
+}
+
+
+.navbar{
+    
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:30px 30px 20px 20px;
+    font-size: 20px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: black;
+}
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 5px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.left img{
+    size: 20px;
+    width: 136px;
+    border:4px solid black;
+    float: right;
+   
+}
+.right img{
+    size: 60px;
+    width: 256px;
+    position: absolute;
+    right: 36px;
+    top: 120px;
+    border:4px solid rgb(199, 218, 216);
+    float: right;
+   
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ #home p{
+    padding: 10px;
+    line-height:0.8cm;
+    line-break: auto;
+    font-family: 'Bree Serif', serif;
+}
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('slide-1.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid white;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: black;
+    margin-bottom: 20px;
+    
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    
+
+} 
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 10px;
+    color: white;
+    margin-top: 5px;
+    
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+    color: white;
+}
+.center{
+    text-align: center;
+    color: white;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('gallery-1.jpg') no-repeat center center/cover;
+
+}
+#contact .box{ 
+    border: 2px solid white;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: black;
+    margin-bottom: 20px;
+    
+}
+
+#contact-box input, 
+#contact-box img{
+    height: 160px;
+   margin: auto;
+   display: block;
+} 
+
+
+#contact-details form{
+    
+    width: 40%;
+} 
+
+ #contact-details label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+   color: white;
+
+}
+ #contact{
+margin: 34px;
+display: flex;
+
+} 
+
+
+
+  #footer { 
+    bottom: 0; 
+    width: 100%; 
+      
+    height: 200px; 
+    margin-top: 50px;
+    background: rgb(235, 231, 231); 
+    color: white;
+
+} 
+#contact-details{
+
+    padding: 34px;
+    margin: 2px 55px;
+    color:black;
+    display: flex;
+    width: 100%;
+
+    
+}
+#contact-details input{
+    font-size: 10px;
+    color: black;
+    
+
+}
+#contact-details label{
+    font-size: 15px;
+    width: 100%;
+    padding: 4px;
+    color: black;
+
+}
+#footer .details{
+    color: black;
+}
+.contacts ul  {
+    top: 6px;
+    margin: 4px;
+    padding:4px;
+    float: right;
+    color: black;
+}
+.contact-me li{
+    margin-top: 10px;
+    padding: 2px;
+}
+.contact-me b{
+    font-size: 18px;
+}
+#footer .social-media ul  {
+    text-align: center;
+}
+#footer .social-media li{
+    text-align: center;
+}
+.footer
+    { 
+        position: fixed; 
+        padding: 10px 10px 0px 10px; 
+        bottom: 0; 
+        width: 100%; 
+        /* Height of the footer*/  
+        height: 40px; 
+        background: rgb(230, 217, 217); 
+    } 
+
+
+   
