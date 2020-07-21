@@ -76,7 +76,7 @@ body{
 }
 .navbar li a:hover,.navbar li a:active{
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 .btn {
     font-family: 'Baloo Bhai', cursive;
